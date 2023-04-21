@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Ledger</string>
+    <string name="editone">ADD</string>
+    <string name="month_out">Expense for the month</string>
+    <string name="out">Expense</string>
+    <string name="month_in">Income for the month</string>
+    <string name="in">Income</string>
+    <string name="budget">Budget Remaining</string>
+    <string name="set_budget">Budget Setting</string>
+    <string name="see_excel">View Chart Analysis</string>
+    <string name="add_remark">Add Remark</string>
+    <string name="remark">Remark</string>
+    <string name="ensure">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="setting">Setting</string>
+    <string name="history_record">History Record</string>
+    <string name="account_info">Accont Info</string>
+    <string name="please_input_time">Enter the time (24-hour format)</string>
+    <string name="please_search_info">Enter the search info</string>
+    <string name="date_empty">Empty, no such record!~~</string>
+    <string name="chart_info">Details</string>
+
+    <string name="about_appinfo">应用信息</string>
+    <string name="about_version">版本</string>
+    <string name="about_1">1.0</string>
+    <string name="about_app">关于应用</string>
+    <string name="about_balabala">学会这个项目,就能够理解Activity，Fragment，数据库等相关内容，好好学习吧！</string>
+    <string name="about_developer">开发者</string>
+    <string name="about_me">关于我</string>
+    <string name="about_loc">坐标沈阳,Android程序员。</string>
+    <string name="about_email">发送邮箱</string>
+    <string name="about_email2">我的邮箱是:liusihui188@126.com,有问题可以找我！</string>
+    <string name="about_code">源代码</string>
+    <string name="about_codeinfo">我的代码托管在码云服务器上，地址链接为：\nhttps://gitee.com/happyanimee/simple-bookkeeping</string>
+    <string name="about_B">B站地址</string>
+    <string name="about_B2">我的个人Bilibili主页地址为：\nhttps://space.bilibili.com/274595492</string>
+
+    <string name="history_info">Billing Records for the month</string>
+    <string name="clear_all">Clear All Records</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_data">No Data Available</string>
+</resources>
