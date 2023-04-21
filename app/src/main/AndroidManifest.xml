@@ -13,7 +13,6 @@
         <activity android:name="com.hui.ledger.MonthChartActivity"></activity>
         <activity android:name="com.hui.ledger.SettingActivity" />
         <activity android:name="com.hui.ledger.HistoryActivity" />
-        <activity android:name="com.hui.ledger.AboutActivity" />
         <activity android:name="com.hui.ledger.SearchActivity" />
         <activity android:name="com.hui.ledger.RecordActivity" />
         <activity android:name="com.hui.ledger.MainActivity">

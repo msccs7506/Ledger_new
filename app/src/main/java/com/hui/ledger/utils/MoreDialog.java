@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
-import com.hui.ledger.AboutActivity;
+
 import com.hui.ledger.HistoryActivity;
 import com.hui.ledger.MonthChartActivity;
 import com.hui.ledger.R;
@@ -44,10 +44,10 @@ public class MoreDialog extends Dialog implements View.OnClickListener {
     public void onClick(View v) {
         Intent intent = new Intent();
         switch (v.getId()) {
-            case R.id.dialog_more_btn_about:
-                intent.setClass(getContext(), AboutActivity.class);
-                getContext().startActivity(intent);
-                break;
+//            case R.id.dialog_more_btn_about:
+//                intent.setClass(getContext(), AboutActivity.class);
+//                getContext().startActivity(intent);
+//                break;
             case R.id.dialog_more_btn_setting:
                 intent.setClass(getContext(), SettingActivity.class);
                 getContext().startActivity(intent);
