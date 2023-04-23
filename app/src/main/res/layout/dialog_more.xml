@@ -8,11 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
-            android:id="@+id/dialog_more_btn_about"
-            style="@style/dialogmoreStyle"
-            android:drawableTop="@mipmap/it_guanyu"
-            android:text="@string/about"/>
+
         <Button
             android:id="@+id/dialog_more_btn_setting"
             style="@style/dialogmoreStyle"
@@ -32,12 +28,14 @@
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
         android:weightSum="3">
+
         <Button
             android:id="@+id/dialog_more_btn_info"
             style="@style/dialogmoreStyle"
+            android:layout_width="105dp"
+            android:layout_marginRight="30dp"
             android:drawableTop="@mipmap/it_xiqing"
-            android:text="@string/account_info"
-            android:layout_marginRight="30dp"/>
+            android:text="@string/account_info" />
     </LinearLayout>
     <ImageView
         android:id="@+id/dialog_more_iv"

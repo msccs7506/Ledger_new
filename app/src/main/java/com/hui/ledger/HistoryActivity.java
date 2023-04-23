@@ -59,8 +59,8 @@ public class HistoryActivity extends AppCompatActivity {
         final int delId = accountBean.getId();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Message").setMessage("Are you sure you want to delete this record？")
-                .setNegativeButton("取消",null)
-                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                .setNegativeButton("Cancel",null)
+                .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         DBManager.deleteItemFromAccounttbById(delId);
@@ -97,7 +97,7 @@ public class HistoryActivity extends AppCompatActivity {
                 dialog.setOnRefreshListener(new CalendarDialog.OnRefreshListener() {
                     @Override
                     public void onRefresh(int selPos, int year, int month) {
-                        timeTv.setText(year+"年"+month+"月");
+                        timeTv.setText(year+"."+month+".");
                         loadData(year,month);
                         dialogSelPos = selPos;
                         dialogSelMonth = month;

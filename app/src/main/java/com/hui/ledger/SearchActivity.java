@@ -49,7 +49,7 @@ public class SearchActivity extends AppCompatActivity {
                 String msg = searchEt.getText().toString().trim();
 //                判断输入内容是否为空，如果为空，就提示不能搜索
                 if (TextUtils.isEmpty(msg)) {
-                    Toast.makeText(this,"输入内容不能为空！",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"Input cannot be empty!",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 //开始搜索

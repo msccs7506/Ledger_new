@@ -14,9 +14,6 @@ import com.hui.ledger.utils.FloatUtils;
 
 import java.util.List;
 
-/*
-* 账单详情页面，listview的适配器
-* */
 public class ChartItemAdapter extends BaseAdapter {
     Context context;
     List<ChartItemBean> mDatas;
