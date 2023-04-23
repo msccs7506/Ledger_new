@@ -140,21 +140,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //获取今日支出和收入总金额，显示在view当中
         float incomeOneDay = DBManager.getSumMoneyOneDay(year, month, day, 1);
         float outcomeOneDay = DBManager.getSumMoneyOneDay(year, month, day, 0);
-        String infoOneDay = "Today Expense ￥"+outcomeOneDay+"  Income ￥"+incomeOneDay;
+        String infoOneDay = "Today: Outcome $"+outcomeOneDay+"  Income $"+incomeOneDay;
         topConTv.setText(infoOneDay);
 //        获取本月收入和支出总金额
         float incomeOneMonth = DBManager.getSumMoneyOneMonth(year, month, 1);
         float outcomeOneMonth = DBManager.getSumMoneyOneMonth(year, month, 0);
-        topInTv.setText("￥"+incomeOneMonth);
-        topOutTv.setText("￥"+outcomeOneMonth);
+        topInTv.setText("$"+incomeOneMonth);
+        topOutTv.setText("$"+outcomeOneMonth);
 
 //    设置显示运算剩余
         float bmoney = preferences.getFloat("bmoney", 0);//预算
         if (bmoney == 0) {
-            topbudgetTv.setText("￥ 0");
+            topbudgetTv.setText("$ 0");
         }else{
             float syMoney = bmoney-outcomeOneMonth;
-            topbudgetTv.setText("￥"+syMoney);
+            topbudgetTv.setText("$"+syMoney);
         }
     }
 

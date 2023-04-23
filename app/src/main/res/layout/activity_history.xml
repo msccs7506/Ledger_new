@@ -38,7 +38,7 @@
             android:id="@+id/history_tv_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2020年11月"/>
+            android:text="2023.4"/>
         <TextView
             android:id="@+id/history_tv_info"
             android:layout_width="wrap_content"

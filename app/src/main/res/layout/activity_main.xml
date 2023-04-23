@@ -51,9 +51,10 @@
 
     <Button
         android:id="@+id/main_btn_edit"
-        android:layout_width="80dp"
+        android:layout_width="65dp"
         android:layout_height="50dp"
         android:layout_alignBottom="@id/main_btn_more"
+        android:layout_marginRight="77dp"
         android:background="@drawable/main_recordbtn_bg"
         android:layout_toLeftOf="@id/main_btn_more"
         android:text="@string/editone"

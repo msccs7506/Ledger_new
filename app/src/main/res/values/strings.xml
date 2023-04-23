@@ -15,7 +15,7 @@
     <string name="about">About</string>
     <string name="setting">Setting</string>
     <string name="history_record">History Record</string>
-    <string name="account_info">Accont Info</string>
+    <string name="account_info">Account Info</string>
     <string name="please_input_time">Enter the time (24-hour format)</string>
     <string name="please_search_info">Enter the search info</string>
     <string name="date_empty">Empty, no such record!</string>
