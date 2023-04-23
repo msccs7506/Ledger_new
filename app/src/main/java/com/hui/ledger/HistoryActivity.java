@@ -97,7 +97,7 @@ public class HistoryActivity extends AppCompatActivity {
                 dialog.setOnRefreshListener(new CalendarDialog.OnRefreshListener() {
                     @Override
                     public void onRefresh(int selPos, int year, int month) {
-                        timeTv.setText(year+"."+month+".");
+                        timeTv.setText(year+"/"+month+".");
                         loadData(year,month);
                         dialogSelPos = selPos;
                         dialogSelMonth = month;

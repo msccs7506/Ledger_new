@@ -27,13 +27,11 @@ public class MoreDialog extends Dialog implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dialog_more);
-        aboutBtn = findViewById(R.id.dialog_more_btn_about);
         settingBtn = findViewById(R.id.dialog_more_btn_setting);
         historyBtn = findViewById(R.id.dialog_more_btn_record);
         infoBtn = findViewById(R.id.dialog_more_btn_info);
         errorIv = findViewById(R.id.dialog_more_iv);
 
-        aboutBtn.setOnClickListener(this);
         settingBtn.setOnClickListener(this);
         historyBtn.setOnClickListener(this);
         infoBtn.setOnClickListener(this);

@@ -37,14 +37,15 @@
         android:background="@color/white"
         android:padding="10dp"
         android:layout_marginTop="20dp">
+
         <TextView
-        android:id="@+id/chart_tv_date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2020年11月账单"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="16sp"/>
+            android:id="@+id/chart_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020/11 Records"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/chart_tv_out"
             android:layout_width="wrap_content"
