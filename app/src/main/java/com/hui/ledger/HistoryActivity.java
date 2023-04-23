@@ -39,7 +39,7 @@ public class HistoryActivity extends AppCompatActivity {
         adapter = new AccountAdapter(this,mDatas);
         historyLv.setAdapter(adapter);
         initTime();
-        timeTv.setText(year+"."+month+".");
+        timeTv.setText(year+"/"+month);
         loadData(year,month);
         setLVClickListener();
     }
