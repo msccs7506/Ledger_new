@@ -10,7 +10,7 @@ import com.hui.ledger.R;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
     public DBOpenHelper(@Nullable Context context) {
-        super(context,"tally.db" , null, 1);
+        super(context,"ledger1.db" , null, 1);
     }
 
 //    创建数据库的方法，只有项目第一次运行时，会被调用
@@ -34,12 +34,11 @@ public class DBOpenHelper extends SQLiteOpenHelper {
         db.execSQL(sql,new Object[]{"Transport", R.mipmap.ic_jiaotong,R.mipmap.ic_jiaotong_fs,0});
         db.execSQL(sql,new Object[]{"Shopping", R.mipmap.ic_gouwu,R.mipmap.ic_gouwu_fs,0});
         db.execSQL(sql,new Object[]{"Cloths", R.mipmap.ic_fushi,R.mipmap.ic_fushi_fs,0});
-        db.execSQL(sql,new Object[]{"Daily Necessity", R.mipmap.ic_riyongpin,R.mipmap.ic_riyongpin_fs,0});
-        db.execSQL(sql,new Object[]{"Entertainment", R.mipmap.ic_yule,R.mipmap.ic_yule_fs,0});
+        db.execSQL(sql,new Object[]{"Daily", R.mipmap.ic_riyongpin,R.mipmap.ic_riyongpin_fs,0});
+        db.execSQL(sql,new Object[]{"Entmt", R.mipmap.ic_yule,R.mipmap.ic_yule_fs,0});
         db.execSQL(sql,new Object[]{"Snack", R.mipmap.ic_lingshi,R.mipmap.ic_lingshi_fs,0});
         db.execSQL(sql,new Object[]{"Study", R.mipmap.ic_xuexi,R.mipmap.ic_xuexi_fs,0});
         db.execSQL(sql,new Object[]{"Medical", R.mipmap.ic_yiliao,R.mipmap.ic_yiliao_fs,0});
-        db.execSQL(sql,new Object[]{"Residence", R.mipmap.ic_zhufang,R.mipmap.ic_zhufang_fs,0});
 
         db.execSQL(sql,new Object[]{"Other", R.mipmap.in_qt,R.mipmap.in_qt_fs,1});
         db.execSQL(sql,new Object[]{"Salary", R.mipmap.in_xinzi,R.mipmap.in_xinzi_fs,1});
