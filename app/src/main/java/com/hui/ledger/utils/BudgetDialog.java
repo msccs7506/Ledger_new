@@ -59,12 +59,12 @@ public class BudgetDialog extends Dialog implements View.OnClickListener {
                 //获取输入数据数值
                 String data = moneyEt.getText().toString();
                 if (TextUtils.isEmpty(data)) {
-                    Toast.makeText(getContext(),"输入数据不能为空！",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),"Input cannot be empty!",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 float money = Float.parseFloat(data);
                 if (money<=0) {
-                    Toast.makeText(getContext(),"预算金额必须大于0",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(),"Budget amount must be greater than 0",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (onEnsureListener!=null) {
