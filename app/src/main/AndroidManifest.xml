@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hui.ledger">
+    package="cs.hku.ledger">
 
     <application
-        android:name="com.hui.ledger.UniteApp"
+        android:name="cs.hku.ledger.UniteApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.hui.ledger.MonthChartActivity"></activity>
-        <activity android:name="com.hui.ledger.SettingActivity" />
-        <activity android:name="com.hui.ledger.HistoryActivity" />
-        <activity android:name="com.hui.ledger.SearchActivity" />
-        <activity android:name="com.hui.ledger.RecordActivity" />
-        <activity android:name="com.hui.ledger.MainActivity">
+        <activity android:name="cs.hku.ledger.MonthChartActivity"></activity>
+        <activity android:name="cs.hku.ledger.SettingActivity" />
+        <activity android:name="cs.hku.ledger.HistoryActivity" />
+        <activity android:name="cs.hku.ledger.SearchActivity" />
+        <activity android:name="cs.hku.ledger.RecordActivity" />
+        <activity android:name="cs.hku.ledger.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

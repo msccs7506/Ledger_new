@@ -15,7 +15,7 @@
             android:id="@+id/frag_record_iv"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@mipmap/ic_qita_fs"/>
+            android:src="@mipmap/ic_canyin_fs"/>
 
         <TextView
             android:id="@+id/frag_record_tv_type"
@@ -24,7 +24,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/frag_record_iv"
-            android:text="Other"
+            android:text="Dining"
             android:textSize="16sp"
             android:textStyle="bold" />
         <EditText
