@@ -49,7 +49,6 @@ public class ChartItemAdapter extends BaseAdapter {
         }else{
             holder = (ViewHolder) convertView.getTag();
         }
-//        获取显示内容
         ChartItemBean bean = mDatas.get(position);
         holder.iv.setImageResource(bean.getsImageId());
         holder.typeTv.setText(bean.getType());

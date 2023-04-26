@@ -1,13 +1,11 @@
 package cs.hku.ledger.db;
-/*
-* 表示收入或者支出具体类型的类
-* */
+
 public class TypeBean {
     int id;
-    String typename;   //类型名称
-    int imageId;    //未被选中图片id
-    int simageId;    //被选中图片id
-    int kind;     //收入-1  支出-0
+    String typename;
+    int imageId;
+    int simageId;    //selected image
+    int kind;     //income-1  outcome-0
 
     public int getId() {
         return id;

@@ -1,16 +1,16 @@
 package cs.hku.ledger.db;
-/** 描述记录一条数据的相关内容类*/
+
 public class AccountBean {
     int id;
-    String typename;   //类型
-    int sImageId;   //被选中类型图片
-    String beizhu;   //备注
-    float money;  //价格
-    String time ;  //保存时间字符串
+    String typename;
+    int sImageId;
+    String beizhu;   //remark
+    float money;
+    String time ;
     int year;
     int month;
     int day;
-    int kind;   //类型  收入---1   支出---0
+    int kind;   //income---1   outcome---0
 
     public int getId() {
         return id;

@@ -35,7 +35,6 @@ public class HistoryActivity extends AppCompatActivity {
         historyLv = findViewById(R.id.history_lv);
         timeTv = findViewById(R.id.history_tv_time);
         mDatas = new ArrayList<>();
-        // 设置适配器
         adapter = new AccountAdapter(this,mDatas);
         historyLv.setAdapter(adapter);
         initTime();
@@ -43,7 +42,6 @@ public class HistoryActivity extends AppCompatActivity {
         loadData(year,month);
         setLVClickListener();
     }
-    /*设置ListView每一个item的长按事件*/
     private void setLVClickListener() {
         historyLv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -64,14 +62,13 @@ public class HistoryActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         DBManager.deleteItemFromAccounttbById(delId);
-                        mDatas.remove(accountBean);   //实时刷新，从数据源删除
+                        mDatas.remove(accountBean);
                         adapter.notifyDataSetChanged();
                     }
                 });
         builder.create().show();
     }
 
-    /* 获取指定年份月份收支情况的列表*/
     private void loadData(int year,int month) {
         List<AccountBean> list = DBManager.getAccountListOneMonthFromAccounttb(year, month);
         mDatas.clear();

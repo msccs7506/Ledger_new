@@ -3,8 +3,8 @@ package cs.hku.ledger.db;
 public class ChartItemBean {
     int sImageId;
     String type;
-    float ratio;   //所占比例
-    float totalMoney;  //此项的总钱数
+    float ratio;   //ratio of expenses
+    float totalMoney;
 
     public ChartItemBean() {
     }
