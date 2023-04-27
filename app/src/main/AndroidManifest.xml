@@ -15,7 +15,8 @@
         <activity android:name="cs.hku.ledger.HistoryActivity" />
         <activity android:name="cs.hku.ledger.SearchActivity" />
         <activity android:name="cs.hku.ledger.RecordActivity" />
-        <activity android:name="cs.hku.ledger.MainActivity">
+        <activity android:name="cs.hku.ledger.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
